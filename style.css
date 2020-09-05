@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(212, 23%, 69%);
+  font-size: 1.3rem;
+  color: hsl(217, 19%, 35%);
+}
+
+.principal-container{
+  width: 90vw;
+  margin: auto;
+  border-radius: 1rem;
+  background-color: hsl(210, 46%, 95%);
+  margin-top: 2rem;
+}
+
+.header-img-container img{
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.main-section-container{
+  /* width: inherit; */
+  text-align: left;
+}
+
+h1{
+  padding: 2rem 1.5rem 1rem 1.5rem;
+  font-size: 4.5vw;
+}
+
+p{
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  font-size: 3.5vw;
+}
+
+/* footer{
+  display: grid;
+  padding: 2rem 2rem;
+  grid-template-columns: 15vw 1fr 10vw;
+  grid-gap: 1rem;
+} */
+
+
+.contact{
+  display: grid;
+  padding: 2rem 2rem;
+  grid-template-columns: 15vw 1fr 10vw;
+  grid-gap: 1rem;
+}
+
+
+
+footer span{
+  display: grid;
+  justify-self: flex-start;
+  align-self: center;
+  font-size: 4vw;
+  
+}
+
+.avatar{
+  display: grid;
+  width: 13vw;
+  height: auto;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.avatar img{
+  width: 100%;
+  border-radius: 60%;
+}
+.share{
+  background-color: hsl(212, 23%, 69%);
+  width: 8vw;
+  height: 8vw;
+  display: grid;
+  align-self: center;
+  justify-self: flex-end;
+  font-size: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.share img{
+  justify-self: center;
+  align-self: center;
+  width: 5vw;
+  height: auto;
+}
+
+.share-container{
+  display: none;
+  padding: 2rem 2rem;
+  grid-template-columns: 24vw 1fr 10vw;
+  grid-gap: 1rem;
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.share-open-component{
+  background-color: hsl(212, 23%, 69%);
+  width: 8vw;
+  height: 8vw;
+  display: grid;
+  align-self: center;
+  justify-self: flex-end;
+  font-size: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.share-open-component img{
+  justify-self: center;
+  align-self: center;
+  width: 5vw;
+  height: auto;
+}
+
+.social{
+  align-self: center;
+}
+.social a{
+  padding: 0 2vw;
+}
+
+.social a img{
+  width: 5vw;
+  height: auto;
+}
+
+
