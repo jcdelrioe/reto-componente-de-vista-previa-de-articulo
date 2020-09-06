@@ -10,7 +10,7 @@ html{
 
 body{
   font-family: 'Manrope', sans-serif;
-  background-color: hsl(212, 23%, 69%);
+  background-color: hsl(210, 46%, 95%);
   font-size: 1.3rem;
   color: hsl(217, 19%, 35%);
 }
@@ -19,7 +19,7 @@ body{
   width: 90vw;
   margin: auto;
   border-radius: 1rem;
-  background-color: hsl(210, 46%, 95%);
+  background-color: white;
   margin-top: 2rem;
 }
 
@@ -33,7 +33,6 @@ body{
 }
 
 .main-section-container{
-  /* width: inherit; */
   text-align: left;
 }
 
@@ -47,22 +46,12 @@ p{
   font-size: 3.5vw;
 }
 
-/* footer{
-  display: grid;
-  padding: 2rem 2rem;
-  grid-template-columns: 15vw 1fr 10vw;
-  grid-gap: 1rem;
-} */
-
-
 .contact{
   display: grid;
   padding: 2rem 2rem;
   grid-template-columns: 15vw 1fr 10vw;
   grid-gap: 1rem;
 }
-
-
 
 footer span{
   display: grid;
@@ -85,7 +74,7 @@ footer span{
   border-radius: 60%;
 }
 .share{
-  background-color: hsl(212, 23%, 69%);
+  background-color: hsl(210, 46%, 95%);
   width: 8vw;
   height: 8vw;
   display: grid;
@@ -143,4 +132,89 @@ footer span{
   height: auto;
 }
 
+.share-container2{
+  display: none;
+}
 
+
+@media screen and (min-width: 768px){
+  body{
+    margin: auto;
+  }
+  .principal-container{
+    display: flex;
+    align-items: center;
+  }
+  .header-img-container img{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+  }
+  
+  .header-img-container{
+    width: 40vw;
+
+  }
+  .main-text-container{
+    width: 60vw;
+  }
+
+  h1{
+    padding: 1.4rem 4rem 1rem 4rem;
+    font-size: 2.5vw;
+  }
+  
+  p{
+    padding: 2rem 4rem 1rem 4rem;
+    font-size: 1.5vw;
+  }
+
+  footer span{
+    font-size: 1.7vw;
+  }
+
+  .contact{
+    grid-template-columns: 5vw 1fr 10vw;
+    padding: 2rem 4rem 1rem 4rem;
+  }
+
+  .avatar{
+    width: 4vw;
+    height: auto;
+    justify-self: flex-start;
+  }
+
+  .share {
+    width: 3vw;
+    height: 3vw;
+  }
+  .share img{
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+
+  .share-container2{
+    position: absolute;
+    display: none;
+    padding: 1.5rem 0.5rem;
+    max-width: 20vw;
+    grid-template-columns: 6.5vw 11vw;
+    grid-gap: 0.5rem;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+    border-radius: 2rem;
+  }
+
+  .share-container2 span{
+    font-size: 1.5vw;
+  }
+
+  .social2{
+    justify-self: right;
+    /* padding: 0 1rem 0 0; */
+  }
+  .social2 a img{
+    width: 1.7vw;
+    height: auto;
+    margin-right: 1rem;
+  }
+}
